@@ -1,0 +1,72 @@
+.error
+{
+color: red;
+}
+.main-container
+{
+width:90hw;
+height:auto;
+border:1px solid black;
+}
+.header
+{
+margin:5px;
+width:90hw;
+height:40px;
+border:1px solid black;
+}
+.logo
+{
+float:left;
+margin-top:5px;
+}
+.brand-name
+{
+font-size:20pt;
+margin-top:5px;
+margin-bottom:5px;
+float:left;
+}
+.content
+{
+width:90hw;
+height:70vh;
+margin:5px;
+border:1px solid white;
+}
+.content-left-panel
+{
+height:60vh;
+float:left;
+padding:5px;
+margin:5px;
+border:1px solid black;
+}
+.content-right-panel
+{
+overflow:scroll;
+height:60vh;
+margin-top:5px;
+padding:5px;
+margin-right:5px;
+margin-bottom:5px;
+margin-left:108px;
+border:1px solid black;
+}
+.footer
+{
+width:90hw;
+height:auto;
+margin:5px;
+text-align:center;
+border:1px solid white;
+}
+.username
+{
+float:right;
+margin-right:10px;
+}
+.user
+{
+margin-top:3px;
+}

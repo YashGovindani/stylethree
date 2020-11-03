@@ -1,0 +1,50 @@
+.error
+{
+color: red;
+font-size:8pt;
+}
+.main-container
+{
+width:auto;
+height:auto;
+border:1px solid black;
+overflow:scroll;
+}
+.header
+{
+margin:5px;
+width:90hw;
+height:auto;
+border:1px solid black;
+}
+.logo
+{
+float:left;
+margin-top:5px;
+}
+.brand-name
+{
+font-size:20pt;
+margin-top:5px;
+margin-bottom:5px;
+}
+.login-section
+{
+width:30vw;
+height:20vh;
+margin-top:30vh;
+margin-bottom:30vh;
+margin-left:33vw;
+margin-right:37vw;
+border:1px solid black;
+padding-left:5vw;
+overflow:scroll;
+}
+.footer
+{
+width:90hw;
+height:auto;
+margin:5px;
+text-align:center;
+border:1px solid white;
+}
