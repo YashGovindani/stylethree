@@ -3,7 +3,7 @@
 <html lang='en'>
 <head>
 <title>HR Application</title>
-<link rel='stylesheet' type='text/css' href='/styletwo/css/styles.css'>
+<link rel='stylesheet' type='text/css' href='/stylethree/css/styles.css'>
 </head>
 <body>
 <!-- Main container starts here  -->
