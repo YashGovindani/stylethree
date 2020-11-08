@@ -10,9 +10,15 @@
 <div class='main-container'>
 <!-- Header starts here  -->
 <div class='header'>
-<a href='/styletwo/index.html'><img src='/styletwo/images/logo.png' class='logo'></a>
+<a href='/stylethree/index.html'><img src='/stylethree/images/logo.png' class='logo'></a>
 <div class='brand-name'>Thinking machines</div>
-<!-- username and log out button to be added -->
+<div class='username'>
+<img src='/stylethree/images/user.png' class='user'>
+<script src='/stylethree/js/Guard.js'></script>
+<span id='username'></span>
+<button type='Button' id='logoutButton' class='logoutButton' onclick='logout()'>Logout</button>
+<form action='/stylethree/LoginForm.jsp' id='logoutForm'></form>
+</div>
 </div> <!-- Header ends here  -->
 <!-- Content-section starts here  -->
 <div class='content'>
