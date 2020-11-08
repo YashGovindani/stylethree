@@ -4,14 +4,14 @@ color: red;
 }
 .main-container
 {
-width:90hw;
-height:auto;
+width:98vw;
+height:95vh;
 border:1px solid black;
 }
 .header
 {
 margin:5px;
-width:90hw;
+width:auto;
 height:40px;
 border:1px solid black;
 }
@@ -29,14 +29,14 @@ float:left;
 }
 .content
 {
-width:90hw;
-height:70vh;
+width:auto;
+height:78vh;
 margin:5px;
 border:1px solid white;
 }
 .content-left-panel
 {
-height:60vh;
+height:70vh;
 float:left;
 padding:5px;
 margin:5px;
@@ -45,7 +45,7 @@ border:1px solid black;
 .content-right-panel
 {
 overflow:scroll;
-height:60vh;
+height:70vh;
 margin-top:5px;
 padding:5px;
 margin-right:5px;

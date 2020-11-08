@@ -70,8 +70,8 @@ if(placeHolderFor=="serialNumber") cellTemplate.innerHTML=k+".";
 if(placeHolderFor=="employeeId") cellTemplate.innerHTML=employee.employeeId;
 if(placeHolderFor=="name") cellTemplate.innerHTML=employee.name;
 if(placeHolderFor=="designation") cellTemplate.innerHTML=employee.designation;
-if(placeHolderFor=="editOption") cellTemplate.innerHTML="<a href='/stylethree/editEmployee?id="+employee.employeeId+"'>Edit</a>";
-if(placeHolderFor=="deleteOption") cellTemplate.innerHTML="<a href='/stylethree/confirmDeleteEmployee?code="+employee.employeeId+"'>Delete</a>";
+if(placeHolderFor=="editOption") cellTemplate.innerHTML="<a href='/stylethree/EmployeeEditForm.jsp?id="+employee.employeeId+"'>Edit</a>";
+if(placeHolderFor=="deleteOption") cellTemplate.innerHTML="<a href='/stylethree/ConfirmDeleteEmployee.jsp?id="+employee.employeeId+"'>Delete</a>";
 }
 }
 }
@@ -110,7 +110,7 @@ document.getElementById("detailPanel_name").innerHTML=emp.name;
 document.getElementById("detailPanel_designation").innerHTML=emp.designation;
 document.getElementById("detailPanel_basicSalary").innerHTML=emp.basicSalary;
 document.getElementById("detailPanel_dateOfBirth").innerHTML=emp.dateOfBirth;
-if(emp.isIndian)
+if(emp.isIndian.localeCompare("true")==0)
 {
 document.getElementById("detailPanel_isIndian").innerHTML="Yes";
 }

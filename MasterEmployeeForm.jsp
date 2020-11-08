@@ -1,5 +1,5 @@
 <h2 id='pageTitle'></h2>
-<input type='hidden' value=${employeeId}>
+<input type='hidden' id='employeeId' value='${employeeId}'>
 <table id='employeeFormTable'>
 <tbody>
 <tr id='descriptionRow'>
@@ -8,7 +8,7 @@
 <tr id='employeeIdRow'>
 <td >Employee Id.</td>
 <td>
-<b id='boldemployeeId'>${employeeId}</b>
+<b id='boldEmployeeId'>${employeeId}</b>
 </td>
 </tr>
 <tr id='nameRow'>
